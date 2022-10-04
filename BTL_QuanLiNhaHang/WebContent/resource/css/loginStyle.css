@@ -1,0 +1,115 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Common */
+.clear {
+    clear: both;
+}
+
+.row {
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.mt8 {
+    margin-top: 8px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+/*  */
+#header {
+    width: 80%;
+    color: #1c1c1c;
+    font-size: 32px;
+    padding: 16px 20px;
+    align-items: center;
+    display:flex;
+}
+
+#header .header-logo {
+    max-width: 122px;
+    margin-right: 16px;
+}
+
+#content .content-section {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 48px 16px;
+}
+
+#content .content-heading {
+    font-size: 24px;
+}
+
+#content .content-label {
+    display: block;
+    color: rgb(28, 28, 28);
+    font-size :16px;
+    font-weight:500;
+    line-height: 14px;
+    margin: 32px 0px 8px;
+    text-size-adjust: 100%;
+}
+
+#content .content-form {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 16px 20px;
+}
+
+#content .login-form {
+    width: 40%;
+}
+
+#content .content-btn {
+    width: 100%;
+    background-color: #444054;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 16px 0px;
+    margin-top: 32px;
+    margin-bottom : 16px;
+    cursor: pointer;
+}
+
+#content .content-btn:hover {
+    background-color: #9CA3AF;
+}
+
+#content .content-link {
+	text-align:center; 
+	text-decoration: none;
+	margin-top: 16px;
+}
+
+#content .join-form {
+    width: 40%;
+    float: right;
+}
+
+#content .content-view {
+    width: 100%;
+    margin-top: 32px;
+}
